@@ -4,7 +4,7 @@ import { Lists } from '@/constant'
 
 const Feature = () => {
   return (
-    <div className='bg-[#FFFFFF] flex items-center justify-between px-[150px] py-[50px] mt-10'>
+    <div className='bg-[#FFFFFF] flex items-center justify-between px-[150px] py-[50px] mt-10' id='feature'>
         <Image src='/Illustration 2.png' alt='feature' width={508} height={414}/>
         <div className='flex flex-col gap-4 mt-12'>
             <h1 className='text-[#0B132A] text-[35px] leading-[50px] font-medium w-[383px]'>We Provide Many Features You Can Use</h1>

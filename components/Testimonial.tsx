@@ -28,7 +28,7 @@ const Testimonial = () => {
     };
     
   return (
-    <div className='bg-[#FFFFFF] px-[145px]  py-[50px]  flex flex-col'>
+    <div className='bg-[#FFFFFF] px-[145px]  py-[50px]  flex flex-col' id='testimonial'>
         <div className='flex flex-col items-center text-center gap-3'>
         <h1 className='text-[#0B132A] text-[35px] leading-[50px] font-medium w-[447px]'>Trusted by Thousands of Happy Customer</h1>
         <p className='text-[#4F5665] text-[16px] leading-[30px] font-normal w-[555px]'>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>

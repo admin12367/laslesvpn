@@ -4,7 +4,7 @@ import { Frees, Premiums, Standards } from '@/constant'
 
 const Price = () => {
   return (
-    <div className='bg-[#F8F8F8] flex flex-col items-center text-center gap-8 px-[180px] py-[50px]'>
+    <div className='bg-[#F8F8F8] flex flex-col items-center text-center gap-8 px-[180px] py-[50px]' id='price'>
         <h1 className='text-[#0B132A] text-[35px] leading-[50px] font-medium'>Choose Your Plan</h1>
         <p className='text-[#4F5665] text-[16pxpx] leading-[30px] font-normal w-[555px]'>Let&apos;s choose the package that is best for you and explore it happily and cheerfully.</p>
 

@@ -8,11 +8,11 @@ const Navbar = () => {
         <Image src="/Logo.png" alt= "logo" width={149} height={36}/>
 
         <div className='flex gap-5 text-[16px] text-[#4F5665]'>
-          <Link href= "/">About</Link>
-          <Link href= "/">Features</Link>
-          <Link href= "/">Pricing</Link>
-          <Link href= "/">Testimonials</Link>
-          <Link href= "/">Help</Link>
+          <Link href= "#home">About</Link>
+          <Link href= "#feature">Features</Link>
+          <Link href= "#price">Pricing</Link>
+          <Link href= "#testimonial">Testimonials</Link>
+          <Link href= "#footer">Help</Link>
         </div>
 
         <div className='flex items-center gap-5'>

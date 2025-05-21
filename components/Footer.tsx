@@ -4,7 +4,7 @@ import { Socials } from '@/constant'
 
 const Footer = () => {
   return (
-    <div className=' bg-[#F8F8F8] flex justify-between px-[145px]  py-[200px] '>
+    <div className=' bg-[#F8F8F8] flex justify-between px-[145px]  py-[200px] ' id='footer'>
         <div>
             <Image src="/Logo.png" alt= "logo" width={149} height={36}/>
             <p className='text-[#4F5665] text-[16px] font-normal leading-[30px] w-[340px] py-5'><span className='font-medium'>LaslesVPN</span> is a private virtual network that has unique features and has high security.</p>
